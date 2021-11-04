@@ -1,4 +1,4 @@
-export const REMOTE_URL = "https://eguzki-strive-challenge-api.herokuapp.com/";
+export const REMOTE_URL = "https://eguzki-strive-challenge-api.herokuapp.com";
 export const LOCAL_URL = "http://localhost:3001";
 
 export const POST_HEADERS = {
