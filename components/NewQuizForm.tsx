@@ -7,7 +7,7 @@ interface Props {
   onSubmit: () => void;
 }
 
-type DraftQuiz = Omit<Quiz, "id" | "questions">;
+type DraftQuiz = Omit<Quiz, "id" | "questions" | "submissions">;
 type DraftQuestion = Omit<Question, "id" | "quiz_id">;
 
 export default function NewQuizForm(props: Props) {

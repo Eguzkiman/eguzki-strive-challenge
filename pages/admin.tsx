@@ -27,7 +27,7 @@ export default function AdminPage() {
       <h2>All Quizzes</h2>
       <ul>
         {data.map((quiz) => (
-          <li key={quiz.id}>{quiz.name} – {quiz.questions.length} questions</li>
+          <li key={quiz.id}>{quiz.name} | {quiz.questions.length} questions | {quiz.submissions.length} submissions</li>
         ))}
       </ul>
     </div>
